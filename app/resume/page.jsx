@@ -1,11 +1,11 @@
 "use client";
-import { FaHtml5, FaCss3, FaJs, FaReact, FaNodeJs } from "react-icons/fa";
-import { SiTailwindcss, SiNextdotjs, SiExpress, SiMongodb } from "react-icons/si";
+import { FaHtml5, FaCss3, FaJs, FaReact, FaNodeJs} from "react-icons/fa";
+import { SiTailwindcss, SiNextdotjs, SiExpress, SiMongodb, SiFlutter } from "react-icons/si";
 
 // about data
 const about = {
     title: "about me",
-    descreption: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, ab dolores error natus iusto nihil molestiae repellat!",
+    descreption: "Feel free to connect, I Have expertise in both app development and full-stack solutions. With a keen eye for detail and a dedication to excellence, I strive to create immersive digital experiences that delight users and exceed expectations.",
     info: [
         {
             fieldName: "Name",
@@ -42,7 +42,7 @@ const about = {
 const experience = {
     icon: "/assets/resume/badge.svg",
     title: "My Experience",
-    descreption: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, ab dolores error natus iusto nihil molestiae repellat!",
+    descreption: "As a full-stack developer, I wield the digital chisel, crafting seamless experiences that blend the artistry of front-end design with the precision of back-end functionality. With a deft hand, I navigate through the labyrinth of languages and frameworks, sculpting responsive layouts and immersive interfaces that captivate users at first glance.",
     items: [
         {
             company: "Parikshalabs Pvt Ltd.",
@@ -62,7 +62,7 @@ const experience = {
 const education = {
     icon: "/assets/resume/cap.svg",
     title: "My Education",
-    descreption: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, ab dolores error natus iusto nihil molestiae repellat!",
+    descreption: "Their journey is a relentless pursuit of knowledge, navigating through the depths of machine learning, artificial intelligence, and cybersecurity with unwavering curiosity and determination. They are the pioneers of tomorrow's technology, pushing the boundaries of innovation to unlock new realms of possibility.",
     items: [
         {
             institution: "Maulana Abul Kalam Azad University of Technology, Kolkata, West Bengal",
@@ -80,7 +80,7 @@ const education = {
 // skills data
 const skills = {
     title: "My Skills",
-    descreption: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, ab dolores error natus iusto nihil molestiae repellat!",
+    descreption: "Technical Proficiencies",
     skillList: [
         {
             icon: <FaHtml5 />,
@@ -105,6 +105,10 @@ const skills = {
         {
             icon: <SiTailwindcss />,
             name: "Tailwind.css",
+        },
+        {
+            icon: <SiFlutter />,
+            name: "Flutter",
         },
         {
             icon: <FaNodeJs />,
@@ -222,7 +226,7 @@ const Resume = () => {
                                 <ul className="grid grid-cols-1 xl:grid-cols-2 gap-y-6 max-w-[620px] mx-auto xl:mx-0">
                                     {about.info.map((item, index) => {
                                         return (
-                                            <li key={index} className="flex items-center justify-center xl:justify-start gap-4">
+                                            <li key={index} className="flex items-center justify-center xl:justify-start gap-4 flex-wrap">
                                                 <span className="text-white/60">{item.fieldName}</span>
                                                 <span className="text-xl">{item.fieldValue}</span>
                                             </li>

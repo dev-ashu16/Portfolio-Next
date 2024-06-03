@@ -17,7 +17,7 @@ const projects = [
         num: "01",
         category: "frontend",
         title: "project 1",
-        description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam vel animi perspiciatis eligendi architecto, deserunt reiciendis sunt!",
+        description: "Crafting Frontend Experiences with HTML5, CSS3, and JavaScript.",
         stack: [
             {
                 name: "Html 5",
@@ -33,7 +33,7 @@ const projects = [
         num: "02",
         category: "fullstack",
         title: "project 2",
-        description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam vel animi perspiciatis eligendi architecto, deserunt reiciendis sunt!",
+        description: "NextTail is an innovative portfolio project that embodies the seamless integration of frontend and backend technologies, powered by Next.js and Tailwind CSS. As a full-stack showcase, this project leverages the dynamic capabilities of Next.js for server-side rendering and routing, while harnessing the expressive styling features of Tailwind CSS for a visually stunning frontend experience.",
         stack: [
             {
                 name: "Next.js",
@@ -47,14 +47,14 @@ const projects = [
     },
     {
         num: "03",
-        category: "frontend",
+        category: "App Development",
         title: "project 3",
-        description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam vel animi perspiciatis eligendi architecto, deserunt reiciendis sunt!",
+        description: "FlutterNode RealEstate is a modern real estate app powered by Flutter for the frontend and Node.js for the backend. Seamlessly combining the versatility of Flutter's UI toolkit with the scalability of Node.js server-side technology, FlutterNode RealEstate redefines the real estate experience for buyers, sellers, and agents alike.",
         stack: [
             {
-                name: "React.js",
+                name: "Flutter",
             },
-            { name: "styled-components" },
+            { name: "Node.js" },
         ],
         image: "/assets/work/thumb3.png",
         live: "",

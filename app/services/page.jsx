@@ -7,25 +7,25 @@ const services = [
     {
         num: "01",
         title: "Full Stack Development",
-        descreption: "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+        descreption: "As an accomplished Full Stack Developer, I bring extensive expertise in both front-end and back-end development, crafting seamless and high-performing web applications. My proficiency encompasses a diverse array of technologies and frameworks, enabling me to deliver comprehensive solutions that meet complex business needs.",
         href: "",
     },
     {
         num: "02",
         title: "App Development",
-        descreption: "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+        descreption: "Embark on a journey of innovation and excellence with my prowess in mobile app development. With a passion for crafting seamless digital experiences, I specialize in bringing ideas to life through captivating and intuitive mobile applications.",
         href: "",
     },
     {
         num: "03",
         title: "AI/ML",
-        descreption: "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+        descreption: "Step into the realm of tomorrow with my expertise in Artificial Intelligence (AI) and Machine Learning (ML), where algorithms breathe life into data and transform the ordinary into the extraordinary. With a passion for innovation and a relentless pursuit of excellence, I specialize in harnessing the potential of AI and ML to drive tangible value and shape the future of technology.",
         href: "",
     },
     {
         num: "04",
         title: "Data Science",
-        descreption: "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+        descreption: "Embarking on a journey of discovery, I dive deep into the depths of data, unraveling its mysteries and uncovering valuable insights. Armed with a keen eye for detail and a mastery of exploratory data analysis techniques, I transform raw data into a rich tapestry of knowledge, paving the way for deeper understanding and informed decision-making.",
         href: "",
     },
 ];
